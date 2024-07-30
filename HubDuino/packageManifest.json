@@ -1,0 +1,95 @@
+{
+  "packageName": "HubDuino Drivers",
+  "minimumHEVersion": "2.1.9",
+  "author": "Daniel Ogorchock",
+  "version": "1.0",
+  "dateReleased": "2024-07-30",
+  "licenseFile": "",
+  "releaseNotes": "",
+  "drivers": [
+    {
+      "id": "b8f0f07a-557a-4379-99df-1ad05cbfa382",
+      "name": "Child Contact Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-contact-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "e012ffff-7959-466b-a2ae-3181a33010f9",
+      "name": "Child Temperature Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-temperature-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "9a11cc8c-13a8-4b2e-838b-1f4a8e42e759",
+      "name": "Child Humidity Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-humidity-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "2bacc5b5-0dd2-4d95-a5f1-8301a531eaf2",
+      "name": "Child Illuminance Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-illuminance-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "c2d8e098-9a2d-4d2e-96a5-f9b2d63a5a1b",
+      "name": "Child Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-switch.groovy",
+      "required": true
+    },
+    {
+      "id": "b4e7dffe-07b7-4c36-8f47-1a4b1a7e4a77",
+      "name": "Child Water Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-water-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "e7b2ed1e-6cf2-46b9-a4c4-0a5b2c3a35f8",
+      "name": "Child Voltage Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-voltage-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "6cb8a05d-61f2-4aef-92d2-1458bbf1f93e",
+      "name": "Child Power Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-power-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "0af0e5a3-5242-489f-8e9f-5d9fdf5d7f62",
+      "name": "Child Energy Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-energy-sensor.groovy",
+      "required": true
+    },
+    {
+      "id": "dfaed63b-572e-4bdf-94e3-6a2b3cb37289",
+      "name": "Child Servo",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-servo.groovy",
+      "required": true
+    },
+    {
+      "id": "83214e9f-3c65-44a7-bb89-92d24d5b8c7f",
+      "name": "Child Dimmer Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-dimmer-switch.groovy",
+      "required": true
+    },
+    {
+      "id": "f10b6a1e-0cbf-489f-a1e8-3f44a529cb3d",
+      "name": "Child RGBW Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-rgbw-switch.groovy",
+      "required": true
+    }
+  ]
+}
