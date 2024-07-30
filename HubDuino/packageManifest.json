@@ -2,8 +2,8 @@
   "packageName": "HubDuino Drivers",
   "minimumHEVersion": "2.1.9",
   "author": "Daniel Ogorchock",
-  "version": "1.0",
-  "dateReleased": "2024-07-30",
+  "version": "1.1.9",
+  "dateReleased": "2022-05-28",
   "licenseFile": "",
   "releaseNotes": "",
   "drivers": [
@@ -54,20 +54,6 @@
       "name": "Child Voltage Sensor",
       "namespace": "ogorchock",
       "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-voltage-sensor.groovy",
-      "required": true
-    },
-    {
-      "id": "6cb8a05d-61f2-4aef-92d2-1458bbf1f93e",
-      "name": "Child Power Sensor",
-      "namespace": "ogorchock",
-      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-power-sensor.groovy",
-      "required": true
-    },
-    {
-      "id": "0af0e5a3-5242-489f-8e9f-5d9fdf5d7f62",
-      "name": "Child Energy Sensor",
-      "namespace": "ogorchock",
-      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-energy-sensor.groovy",
       "required": true
     },
     {
