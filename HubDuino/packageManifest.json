@@ -1,0 +1,337 @@
+{
+  "packageName": "HubDuino",
+  "author": "DanielOgorchock",
+  "version": "1.1.9",
+  "minimumHEVersion": "0.0",
+  "dateReleased": "2024-08-11",
+  "drivers": [
+    {
+      "id": "child-alarm",
+      "name": "Child Alarm",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-alarm.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-carbon-monoxide-detector",
+      "name": "Child Carbon Monoxide Detector",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-carbon-monoxide-detector.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-contact-sensor",
+      "name": "Child Contact Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-contact-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-dimmer-switch",
+      "name": "Child Dimmer Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-dimmer-switch.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-door-control",
+      "name": "Child Door Control",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-door-control.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-energy-meter",
+      "name": "Child Energy Meter",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-energy-meter.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-generic-sensor",
+      "name": "Child Generic Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-generic-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-humidity-sensor",
+      "name": "Child Humidity Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-humidity-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-illuminance-sensor",
+      "name": "Child Illuminance Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-illuminance-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-illuminancergb-sensor",
+      "name": "Child Illuminance RGB Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-illuminancergb-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-motion-sensor",
+      "name": "Child Motion Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-motion-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-power-meter",
+      "name": "Child Power Meter",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-power-meter.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-presence-sensor",
+      "name": "Child Presence Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-presence-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-pressure-measurement",
+      "name": "Child Pressure Measurement",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-pressure-measurement.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-relay-switch",
+      "name": "Child Relay Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-relay-switch.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-rgb-switch",
+      "name": "Child RGB Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-rgb-switch.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-rgbw-switch",
+      "name": "Child RGBW Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-rgbw-switch.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-servo",
+      "name": "Child Servo",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-servo.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-smoke-detector",
+      "name": "Child Smoke Detector",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-smoke-detector.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-sound-pressure-level",
+      "name": "Child Sound Pressure Level",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-sound-pressure-level.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-switch",
+      "name": "Child Switch",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-switch.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-temperature-sensor",
+      "name": "Child Temperature Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-temperature-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-ultrasonic-sensor",
+      "name": "Child Ultrasonic Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-ultrasonic-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-valve",
+      "name": "Child Valve",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-valve.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-voltage-sensor",
+      "name": "Child Voltage Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-voltage-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-water-sensor",
+      "name": "Child Water Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-water-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-weight-measurement",
+      "name": "Child Weight Measurement",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-weight-measurement.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "child-window-shade",
+      "name": "Child Window Shade",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/child-window-shade.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-alarm",
+      "name": "HubDuino Component Alarm",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-alarm.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-door-control",
+      "name": "HubDuino Component Door Control",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-door-control.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-illuminance-sensor",
+      "name": "HubDuino Component Illuminance Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-illuminance-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-illuminanceRGB-sensor",
+      "name": "HubDuino Component Illuminance RGB Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-illuminanceRGB-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-pressure-measurement",
+      "name": "HubDuino Component Pressure Measurement",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-pressure-measurement.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-servo",
+      "name": "HubDuino Component Servo",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-servo.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-sound-pressure-level",
+      "name": "HubDuino Component Sound Pressure Level",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-sound-pressure-level.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-ultrasonic-sensor",
+      "name": "HubDuino Component Ultrasonic Sensor",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-ultrasonic-sensor.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-valve",
+      "name": "HubDuino Component Valve",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-valve.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-component-weight-measurement",
+      "name": "HubDuino Component Weight Measurement",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-component-weight-measurement.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-parent-ethernet-beta",
+      "name": "HubDuino Parent Ethernet Beta",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-parent-ethernet-beta.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-parent-ethernet",
+      "name": "HubDuino Parent Ethernet",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-parent-ethernet.groovy",
+      "required": true,
+      "version": "1.1.9"
+    },
+    {
+      "id": "hubduino-parent-thingshield",
+      "name": "HubDuino Parent ThingShield",
+      "namespace": "ogorchock",
+      "location": "https://raw.githubusercontent.com/DanielOgorchock/ST_Anything/master/HubDuino/Drivers/hubduino-parent-thingshield.groovy",
+      "required": true,
+      "version": "1.1.9"
+    }
+  ]
+}
